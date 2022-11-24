@@ -1,0 +1,38 @@
+site_name: testing-site
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - About: about.md
+theme: material
+
+theme:
+  name: material
+  icon:
+    repo: material/git
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+  language: en
+  palette: 
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/vongomben
+
+repo_url: https://github.com/vongomben/fluid-networks
+repo_name: vongomben/fluid-networks
+
+
